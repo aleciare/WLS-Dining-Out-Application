@@ -1,0 +1,63 @@
+1.	PROBLEM DESCRIPTION: Existing tracking apps, such as Baritastic and MyFitnessPal, despite their broad features, do not offer the specialized functionality needed by bariatric patients to navigate the unique challenges of restaurant dining. 
+•	Large portion sizes: Smaller portion sizes are often required after bariatric surgery. Overeating can cause significant pain.
+•	Menu navigation: Navigating restaurant menus and packaged foods for wholesome meals is a challenge, as many products mask unhealthy fats, excess sugars, and refined carbs.
+•	Social anxiety: Social meals can cause anxiety for patients, who may feel pushed to eat past their feeling of fullness.
+•	Fluid management: WLS patients dining out need to plan around the need to avoid drinking liquids with their meal. 
+•	Nutrient prioritization: Standard menus are inadequate for WLS patients, who must prioritize protein and other dense nutrients to meet their essential dietary needs.
+2. PROBLEM ADDRESSING: Specifically designed for WLS patients, this intuitive platform simplifies the entire dining-out process, from making reservations to the moment they finish their meal.
+•	Pre-planning: Plan your meal with confidence by searching for restaurants and filtering menu items by specific bariatric guidelines.
+•	Menu intelligence: This software performs a nutritional assessment of restaurant menus, spotlighting high-protein options while detecting dishes that may be considered unsafe or unhealthy.
+•	Guided experience: Users can track their meals and pace for better portion control.
+•	Actionable strategies: "The app empowers you to make informed dining choices with practical strategies like sharing entrees and special requests.
+•	Community support: The app's integrated social network is designed to enhance social connectedness by providing users with a forum for sharing tips and narratives, which addresses issues of anxiety and isolation.
+3. PLATFORM: We will be developing a native application for Google's Android operating systems, with distribution planned through the respective app marketplaces.
+4.FRONT/BACK END SUPPORT: Front-end and back-end support
+Front-end
+•	Technology stack: Native declarative UI development for Android.
+•	Features: "The front-end will prioritize accessibility and usability with an intuitive, clean interface, readable text, and easy navigation. Key features include interactive search, filters, meal timers, and progress visuals.
+Back-end
+•	Technology stack: Leveraging a cloud backend, including options like Firebase or AWS Amplify, to streamline user authentication, data storage, and serverless function execution.
+•	Features:  
+•	
+o	User database: Safeguards user data, encompassing profiles, dietary phase, preferences, and dining history.
+o	Restaurant database: An integrated platform for restaurant and menu data, enriched by external sources and user contributions.
+o	Dietary rules engine: The back-end system that automatically screens menu items for bariatric dietary guidelines.
+o	Community features: Curates community support forums, facilitates user reviews, and presents restaurant ratings.
+5.FUNCTIONALITY:
+Feature	Description
+Bariatric Restaurant Search	Allows users to search for restaurants and filter them by bariatric-friendly criteria (e.g., protein options, grilled dishes) and location.
+Menu Analyzer	Displays a restaurant's menu with bariatric-friendly recommendations and color-coded warnings for high-risk items (e.g., red for "avoid," yellow for "proceed with caution," green for "recommended").
+Meal Pacing Timer	An interactive timer that guides users to eat slowly. It can be set with intervals for "bite" and "pause" to aid digestion and promote mindful eating.
+Plate Builder	An in-app tool that helps users visualize and plan a balanced meal from a restaurant's menu, prioritizing protein and vegetables.
+User Reviews and Tips	A social feature where WLS patients can leave reviews and tips specifically for other patients about their dining experiences at particular restaurants.
+Customized Dining Hacks	Provides tips for specific situations, such as how to ask for modifications or how to handle social pressure at dinner parties.
+Progress Tracker	A simple journal to log dining-out experiences, track meals eaten, and note how the meal made the user feel.
+
+
+6.DESIGN (WIREFRAMES):
+Home screen
+•	Top: Restaurant and Cuisine Finder.
+•	Middle: Prominent buttons for "Find Nearby Restaurants," "Search Menus," and "View My Dining Log."
+•	Bottom: Navigation bar with icons for Home, Search, Timer, and Profile.
+Restaurant search results screen
+•	Top: Filters for dietary phases (e.g., soft, regular) and meal types (e.g., high-protein).
+•	List: Restaurants Rated for Bariatric Needs, Sorted by Proximity
+•	Bottom: Display results geographically.
+Menu analyzer screen
+•	Top: Restaurant name and a description of bariatric-friendly tips for that location.
+•	List: Menu items with color-coded tags (e.g., "Good Choice," "Ask for Modification," "Avoid"). Tapping an item reveals more details.
+•	Details view:
+•	
+o	Top: Item image and description.
+o	Middle: Detailed bariatric analysis (e.g., Protein: Good, Sauce: Request on side).
+o	Bottom: Option to add the item to a "My Meal" plate builder.
+Meal pacing timer screen
+•	Top: Set duration for the meal (e.g., 20 minutes) and bite/pause intervals.
+•	Middle: "Time is running out" display
+•	Bottom: Buttons to "Start," "Pause," or "Stop." Vibration/sound notifications cue the user.
+Profile and dining log screen
+•	Top: User's name and a quick summary of recent dining activities.
+•	List: Restaurant memory log
+•	Button: A large "+" button to log a new dining experience.
+
+
